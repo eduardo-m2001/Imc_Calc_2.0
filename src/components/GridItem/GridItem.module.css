@@ -1,0 +1,36 @@
+.main {
+  flex: 1;
+  color: #FFF;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .5s;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.main:hover {
+  transform: scale(1.07);
+}
+
+.gridIcon {
+  width: 70px;
+  height: 70px;
+  background-color: rgba(0, 0, 0, .1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.gridTitle {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.gridInfo {
+  font-size: 12px;
+  margin-top: 14px;
+}
